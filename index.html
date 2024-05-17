@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>科技公司网站</title>
+</head>
+<body>
+    <!-- 顶部栏 -->
+    <header>
+        <div class="logo-container">
+            <img src="./image/logo.jpg" alt="公司LOGO" class="logo">
+            <h1>国际混种创造遗传公司</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#products">产品展示</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 简介部分 -->
+    <section id="about" class="about-section">
+        <h2>关于我们</h2>
+        <p>创立时间：2021年5月1日</p>
+        <p>官方：马闻谅</p>
+        <p>网站设计：程谟霖</p>
+        <p>主要业务：混种生物创造 主题公园建设 灭绝动物克隆 恐龙收容保护</p>
+        <p>次要业务：生物武器开发 新型材料生产 航天技术研究 人造器官移植与研发 环境保护与改造</p>
+        <p>我们非常欢迎您的加入！！！</p>
+    </section>
+
+
+    <section id="products" class="products-section">
+        <h2>产品展示</h2>
+        <div class="product-grid">
+            <div class="product">
+                <div class="product-image"><img src="./image/1.jpg" alt="产品1"></div>
+                
+                <h3>红锈 天国龙</h3>
+                <p>paradisesaurus</p>
+                <p>redrust</p>
+                <p>基因组成：井研 马门溪龙+不明</p>
+                <p>生存区域：公司总部</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/2.jpg" alt="产品2"></div>
+                
+                <h3>赛博坦 碧空盗龙</h3>
+                <p>暂无</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/3.jpg" alt="产品3"></div>
+                <h3>梁武 炮楼龙</h3>
+                <p>东兴 京龙+科洛马龙</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/4.jpg" alt="产品4"></div>
+                
+                <h3>十面 鲛人龙</h3>
+                <p>沧海月明珠有泪 蓝田日暖玉生烟</p>
+                <p>mermansaurus</p>
+                <p>tenfaces</p>
+                <p>副栉龙+无齿翼龙+巴巴里翼龙+</p>
+                <p>蓝鲸+古喙鱼+伊卡企鹅+霸王龙</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/5.jpg" alt="产品5"></div>
+                <h3>三栖 春晓猎兽</h3>
+                <p>春眠不觉晓，处处闻啼鸟</p>
+                <p>spring dawnvenator</p>
+                <p>trixenie</p>
+                <p>伟鬣兽+匕齿苍龙+伊卡兰翼龙+</p>
+                <p>三尖角鲨</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/6.jpg" alt="产品6"></div>
+                <h3>月下 断魂龙</h3>
+                <p>基因组成为：顿氏 顶棘龙+美杜莎角龙</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/7.jpg" alt="产品7"></div>
+                <h3>巡海 夜叉鱼</h3>
+                <p>Yechafish patrol ocean</p>
+                <p>基因组成：保密</p>
+            </div>
+            <div class="product">
+                <div class="product-image"><img src="./image/8.jpg" alt="产品8"></div>
+                <h3>触魂 星河龙</h3>
+                <p>Starryriosaurus</p>
+                <p>touchsoul</p>
+                <p>基因组成：剑阁龙+黑角鮟鱇</p>
+                <p>生存区域：新几内亚岛</p>
+            </div>
+            <!-- 更多产品... -->
+        </div>
+    </section>
+
+    <!-- 联系我们部分 -->
+    <section id="contact" class="contact-section">
+        <h2>联系我们</h2>
+        <h3>大连软件园双语学校2023届7年3班马闻谅同学</h3>
+    </section>
+
+    <!-- 引入3D动画库如Three.js的脚本（示例） -->
+    <!-- 注意：实际部署时需从CDN或本地引入 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.querySelector('.button');
+
+    // 鼠标移入时添加类
+    button.addEventListener('mouseenter', function() {
+        this.classList.add('hover');
+    });
+
+    // 鼠标移出时移除类
+    button.addEventListener('mouseleave', function() {
+        this.classList.remove('hover');
+    });
+});
+    </script>
+</body>
+</html>
